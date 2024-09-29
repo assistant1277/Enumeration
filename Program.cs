@@ -16,6 +16,14 @@ namespace Enumeration
             Console.WriteLine();
 
             BeverageSelector.SelectBeverage();
+
+            Console.WriteLine();
+
+            FruitSelector.DisplayAllFruits();
+
+            Console.WriteLine();
+
+            FruitSelector.SelectFruit();
             Console.ReadKey();
         }
     }
